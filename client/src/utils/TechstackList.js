@@ -13,7 +13,7 @@ import {
   SiMysql,
   // SiTypescript,
   SiGithub,
-  SiWordpress,
+ SiSanity,
   // SiFirebase,
   // SiDocker,
   SiExpress,
@@ -42,11 +42,11 @@ export const TechstackList = [
     name: "Javascript",
     icon: SiJavascript,
   },
-  // {
-  //   _id: 5,
-  //   name: "TypeScript",
-  //   icon: SiTypescript,
-  // },
+  {
+    _id: 5,
+    name: "Sanity",
+    icon: SiSanity,
+  },
   // {
   //   _id: 6,
   //   name: "Angular",
