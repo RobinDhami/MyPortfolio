@@ -25,8 +25,8 @@ const sendEmailController = async (req, res) => {
 
     // Compose email
     const mailOptions = {
-      from: 'rozendhami69@gmail.com',
-      to: email, // Replace with the recipient's email address
+      to: 'rozendhami69@gmail.com',
+      from: email, // Replace with the recipient's email address
       subject: 'Regarding Mern Portfolio App',
       html: `
         <h5>Detail Information</h5>
